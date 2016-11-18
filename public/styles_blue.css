@@ -4,7 +4,7 @@
 }
 body {
   background-image: url();
-  background: linear-gradient(#654A87, #534292);  /*#654A87, #534292*/
+  background: linear-gradient(#0C78B9,#042956);
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,19 +19,26 @@ body {
 #main {
   background-color: #fff;
 }
-#output {
-
+#footer {
+  text-align: center;
+}
+.copyright {
+  color: #ccc;
 }
 .well {
   border-radius: 10px 10px 10px;
+  margin-bottom: 15px;
 }
-
+p {
+  color: #999;
+  font-style: italic;
+}
 h1, h2 {
   color: #fff;
 }
 h3 {
   margin-bottom: 20px;
-  color: #534292;
+  color: #0C78B9;
 }
 h4 {
   color: #665;
@@ -51,28 +58,33 @@ input {
   margin-top: 10px;
 }
 input:hover {
-     border-color:#534292;
+     border-color:#0C99B9;
+}
+.form-group {
+  margin-bottom: 50px;
 }
 /*Alters Focus on button and input*/
 button:focus{
   outline: none !important;
+  border-color: #fff;
 }
 .btn {
-  background: linear-gradient(to right, #5E478B, #8F5899);
+  background: linear-gradient(to right, #004D95, #0C99B9);
   border-color: #fff;
   text-align: center;
   width: 100%;
   font-size: 1.3em;
 }
 .btn:hover{
-  background-color: #534292;
+  background-color: #004D95;
   border-color: #fff;
 }
 .btn:active {
-  background-color: #534292;
+  background-color: #004D95;
   border-color: #fff;
 }
 .btn:visited {
-  background: linear-gradient(to right, #5E478B, #8F5899);
+  background: linear-gradient(to right, #004D95, #004D95);
   color: #fff;
+  border-color: #fff;
 }

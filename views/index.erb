@@ -1,23 +1,24 @@
 
 <div id="top">
-<h1>Word Count</h1>
+  <h1>Word Count</h1>
 </div>
-
 <div id="main" class="well">
-<form action="result">
-  <div class="form-group">
-    <input id="sentence" type="text" name="input_sentence" class="form-control" placeholder="Enter a sentence">
-    <input id="word" type="text" name="input_word" class="form-control" placeholder="Enter the word that you want to count">
-  </div>
-  <button type="submit" class="btn btn-success">Go</button>
-</form>
+  <form action="result">
+    <div class="form-group">
+      <input id="sentence" type="text" name="input_sentence" class="form-control" placeholder="Enter a sentence">
+      <input id="word" type="text" name="input_word" class="form-control" placeholder="Enter the word that you want to count">
+    </div>
+    <p>Example: The Wolf turned into a werewolf.</p>
+    <button type="submit" class="btn btn-success">Go</button>
+  </form>
 </div> <!--main end -->
-
-
 <div id ="output" class="well">
-<h4>The sentence</h4>
-<h3><%= @original_sentence %></h3><hr>
-<h4>Contains the word</h4>
-<h3><%= @original_word %></h3><hr>
-<h3><%= @final_count %> <span class="h3">time(s)</span></h3>
+  <h4>The sentence</h4>
+  <h3><%= @original_sentence %></h3><hr>
+  <h4>Contains the word</h4>
+  <h3><%= @original_word %></h3><hr>
+  <h3><%= @final_count %> <span class="h3">time(s)</span></h3>
+</div>
+<div id="footer">
+  <span class="copyright">&copy; All rights reserved by Joshua Rinard</span>
 </div>
