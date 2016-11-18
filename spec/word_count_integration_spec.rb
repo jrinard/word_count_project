@@ -9,6 +9,6 @@ describe('the word counter path', {:type => :feature}) do
     fill_in('sentence', :with => 'The wolf ate the rabbit')
     fill_in('word', :with => 'wolf')
     click_button('Submit')
-    expect(page).to have_content(1)
+    expect(page).to have_content("1")
   end
 end
