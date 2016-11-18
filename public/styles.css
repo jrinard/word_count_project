@@ -4,7 +4,7 @@
 }
 body {
   background-image: url();
-  background: linear-gradient(#654A87, #534292);
+  background: linear-gradient(#654A87, #534292);  /*#654A87, #534292*/
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,13 +19,30 @@ body {
 #main {
   background-color: #fff;
 }
+#output {
+
+}
 .well {
   border-radius: 10px 10px 10px;
 }
 
-
 h1, h2 {
   color: #fff;
+}
+h3 {
+  margin-bottom: 20px;
+  color: #534292;
+}
+h4 {
+  color: #665;
+}
+hr {
+  border-color: #999;
+}
+span.h3 {
+  display: inline-block;
+  font-size: .8em;
+  color: #665;
 }
 label {
   color: #534292;
@@ -51,7 +68,7 @@ button:focus{
   background-color: #534292;
   border-color: #fff;
 }
-.btn:active{
+.btn:active {
   background-color: #534292;
   border-color: #fff;
 }

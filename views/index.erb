@@ -13,6 +13,11 @@
 </form>
 </div> <!--main end -->
 
-<h2>The sentence "<%= @original_sentence %>"</h2>
-<h2>Contains the word "<%= @original_word %>"</h2>
-<h2><%= @final_count %> time(s)</h2>
+
+<div id ="output" class="well">
+<h4>The sentence</h4>
+<h3><%= @original_sentence %></h3><hr>
+<h4>Contains the word</h4>
+<h3><%= @original_word %></h3><hr>
+<h3><%= @final_count %> <span class="h3">time(s)</span></h3>
+</div>
