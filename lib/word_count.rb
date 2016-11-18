@@ -5,7 +5,7 @@ class String
     sentence_array = self.downcase().split(" ")
     sentence_array.each() do |word|
       if word.include?(find_word)
-        counter = counter + 1
+         counter = counter + 1
       end
     end
     counter
