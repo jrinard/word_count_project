@@ -27,10 +27,13 @@ body {
 }
 .well {
   border-radius: 10px 10px 10px;
+  margin-bottom: 15px;
 }
-p {
+#main p {
   color: #999;
   font-style: italic;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 h1, h2 {
   color: #fff;
@@ -58,6 +61,9 @@ input {
 }
 input:hover {
      border-color:#534292;
+}
+.form-group {
+  margin-bottom: 30px;
 }
 /*Alters Focus on button and input*/
 button:focus{
