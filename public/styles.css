@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-image: url();
+  background: linear-gradient(#654A87, #534292);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 500px;
+  margin-top: 100px;
+}
+#top {
+  margin-left: 30%;
+}
+#main {
+  background-color: #fff;
+}
+.well {
+  border-radius: 10px 10px 10px;
+}
+
+
+h1, h2 {
+  color: #fff;
+}
+label {
+  color: #534292;
+}
+input {
+  margin-top: 10px;
+}
+input:hover {
+     border-color:#534292;
+}
+/*Alters Focus on button and input*/
+button:focus{
+  outline: none !important;
+}
+.btn {
+  background: linear-gradient(to right, #5E478B, #8F5899);
+  border-color: #fff;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3em;
+}
+.btn:hover{
+  background-color: #534292;
+  border-color: #fff;
+}
+.btn:active{
+  background-color: #534292;
+  border-color: #fff;
+}
+.btn:visited {
+  background: linear-gradient(to right, #5E478B, #8F5899);
+  color: #fff;
+}
