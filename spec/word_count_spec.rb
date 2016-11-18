@@ -12,4 +12,7 @@ describe('String#word_count') do
   it ('count how many times a specific word is used in a sentence') do
     expect("The wolf ate the rabbit, and the wolf ran into the forest".word_count("wolf")).to(eq(2))
   end
+  it ('count how many times a specific word is used in a sentence regardless of case') do
+    expect("The WOLF ate the rabbit, and the wolf ran into the forest".word_count("wolf")).to(eq(2))
+  end
 end
