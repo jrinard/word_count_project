@@ -34,9 +34,6 @@ This version contains no known issues.
 
 https://word-count-11-18-16.herokuapp.com
 
-## Link to site on Git Hub Pages
-
-https://jrinard.github.io/word_count_project
 
 ## Support and contact details
 
