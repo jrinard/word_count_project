@@ -30,6 +30,10 @@ This site demonstrates basic ruby code structure using sinatra with a method tha
 
 This version contains no known issues.
 
+## Link to app on Heroku
+
+https://word-count-11-18-16.herokuapp.com
+
 ## Link to site on Git Hub Pages
 
 https://jrinard.github.io/word_count_project
